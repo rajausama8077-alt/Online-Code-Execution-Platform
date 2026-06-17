@@ -1,0 +1,36 @@
+.editor-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  text-align: left;
+}
+
+.editor-page__nav {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.editor-page__link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.editor-page__link:hover {
+  text-decoration: underline;
+}
+
+.editor-page__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.editor-page > .ide-app {
+  flex: 1;
+  min-height: 0;
+}

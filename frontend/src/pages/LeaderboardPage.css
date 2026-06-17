@@ -1,0 +1,51 @@
+.leaderboard-page {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.leaderboard-page__head h1 {
+  margin: 0 0 6px;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.leaderboard-page__sub {
+  margin: 0 0 16px;
+  color: var(--text);
+}
+
+.leaderboard-page__error {
+  color: #f87171;
+}
+
+.leaderboard-page__table-wrap {
+  overflow-x: auto;
+}
+
+.leaderboard-page__table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leaderboard-page__table th,
+.leaderboard-page__table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.leaderboard-page__table th {
+  background: var(--code-bg);
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.leaderboard-page__rank {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}

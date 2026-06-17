@@ -1,0 +1,58 @@
+.app-navbar {
+  border-bottom: 1px solid var(--border);
+  background: rgba(10, 14, 28, 0.9);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.app-navbar__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.app-navbar a {
+  color: var(--text-h);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.app-navbar a:hover {
+  color: #fff;
+  background: rgba(167, 139, 250, 0.2);
+}
+
+.app-navbar__links,
+.app-navbar__auth {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.app-navbar__user {
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.app-navbar__btn {
+  border: 1px solid var(--accent-border);
+  background: rgba(167, 139, 250, 0.14);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.app-navbar__btn:hover {
+  background: rgba(167, 139, 250, 0.24);
+}
